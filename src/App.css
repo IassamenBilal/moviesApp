@@ -1,0 +1,76 @@
+/* Header */
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  margin: 10px;
+}
+
+.header-title {
+  font-family: "Mochiy Pop P One", sans-serif !important;
+}
+
+/* Content */
+.card {
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.card-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+}
+.movie-likes {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.movie-dislikes {
+  display: flex;
+  align-items: center;
+}
+.like-icon {
+  margin-left: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.filters {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
+
+.footer-container {
+  height: 50px;
+  width: 100%;
+  background-color: #1975d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #fff !important;
+}
